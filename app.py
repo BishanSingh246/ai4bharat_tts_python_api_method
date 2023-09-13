@@ -91,7 +91,8 @@ tts = TTS(
         config_path = "hi/fastpitch/config.json",
         vocoder_path = "hi/hifigan/best_model.pth",
         vocoder_config_path = "hi/hifigan/config.json",
-        gpu = False)
+        gpu = True)
+        # gpu = False)
 
 for index,value in enumerate(text_arr):
 
