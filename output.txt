@@ -1,0 +1,383 @@
+(venv) bishansingh@mr-darklord:~/Desktop/TTS_ai4bharat$ python3 pythonApi.py
+cpu
+ > Using model: fast_pitch
+ > Setting up Audio Processor...
+ | > sample_rate:22050
+ | > resample:False
+ | > num_mels:80
+ | > log_func:np.log
+ | > min_level_db:-100
+ | > frame_shift_ms:None
+ | > frame_length_ms:None
+ | > ref_level_db:20
+ | > fft_size:1024
+ | > power:1.5
+ | > preemphasis:0.0
+ | > griffin_lim_iters:60
+ | > signal_norm:False
+ | > symmetric_norm:True
+ | > mel_fmin:0
+ | > mel_fmax:8000.0
+ | > pitch_fmin:0.0
+ | > pitch_fmax:640.0
+ | > spec_gain:1.0
+ | > stft_pad_mode:reflect
+ | > max_norm:4.0
+ | > clip_norm:True
+ | > do_trim_silence:True
+ | > trim_db:60
+ | > do_sound_norm:False
+ | > do_amp_to_db_linear:True
+ | > do_amp_to_db_mel:True
+ | > do_rms_norm:False
+ | > db_level:None
+ | > stats_path:None
+ | > base:2.718281828459045
+ | > hop_length:256
+ | > win_length:1024
+ > Init speaker_embedding layer.
+ > Vocoder Model: hifigan
+ > Setting up Audio Processor...
+ | > sample_rate:22050
+ | > resample:False
+ | > num_mels:80
+ | > log_func:np.log
+ | > min_level_db:-100
+ | > frame_shift_ms:None
+ | > frame_length_ms:None
+ | > ref_level_db:20
+ | > fft_size:1024
+ | > power:1.5
+ | > preemphasis:0.0
+ | > griffin_lim_iters:60
+ | > signal_norm:False
+ | > symmetric_norm:True
+ | > mel_fmin:0
+ | > mel_fmax:8000.0
+ | > pitch_fmin:0.0
+ | > pitch_fmax:640.0
+ | > spec_gain:1.0
+ | > stft_pad_mode:reflect
+ | > max_norm:4.0
+ | > clip_norm:True
+ | > do_trim_silence:True
+ | > trim_db:60
+ | > do_sound_norm:False
+ | > do_amp_to_db_linear:True
+ | > do_amp_to_db_mel:True
+ | > do_rms_norm:False
+ | > db_level:None
+ | > stats_path:None
+ | > base:2.718281828459045
+ | > hop_length:256
+ | > win_length:1024
+ > Generator Model: hifigan_generator
+ > Discriminator Model: hifigan_discriminator
+Removing weight norm...
+ > Text splitted to sentences.
+['पाँचदशक के अंत में, उनका जश्न पचासवें जन्मदिन के साथ मनाया गया।']
+पाँचदशक के अंत में, उनका जश्न पचासवें जन्मदिन के साथ मनाया गया।
+ [!] Character '।' not found in the vocabulary. Discarding it.
+ > Processing time: 2.004876136779785
+ > Real-time factor: 0.40625936274072066
+ > Text splitted to sentences.
+['पाँचदशक के अंत में, उनका जश्न पचासवें जन्मदिन के साथ मनाया गया।']
+ > Processing time: 1.8590583801269531
+ > Real-time factor: 0.3767114880330035
+ > Text splitted to sentences.
+['पाँचदशक के अंत में, उनका जश्न पचासवें जन्मदिन के साथ मनाया गया।']
+ > Processing time: 1.7731525897979736
+ > Real-time factor: 0.35930391307386156
+ > Text splitted to sentences.
+['पाँचदशक के अंत में, उनका जश्न पचासवें जन्मदिन के साथ मनाया गया।']
+ > Processing time: 1.7934279441833496
+ > Real-time factor: 0.363412422522817
+ > Text splitted to sentences.
+['पाँचदशक के अंत में, उनका जश्न पचासवें जन्मदिन के साथ मनाया गया।']
+ > Processing time: 1.8552873134613037
+ > Real-time factor: 0.37594733551887355
+ > Text splitted to sentences.
+['पाचास किलोमीटर की यात्रा पर जाने के बाद, वह थक कर गए।']
+ > Processing time: 1.6224913597106934
+ > Real-time factor: 0.36964719872727714
+ > Text splitted to sentences.
+['पाचास किलोमीटर की यात्रा पर जाने के बाद, वह थक कर गए।']
+ > Processing time: 1.661468505859375
+ > Real-time factor: 0.37852724163290646
+ > Text splitted to sentences.
+['पाचास किलोमीटर की यात्रा पर जाने के बाद, वह थक कर गए।']
+ > Processing time: 1.6091463565826416
+ > Real-time factor: 0.3666068478534391
+ > Text splitted to sentences.
+['पाचास किलोमीटर की यात्रा पर जाने के बाद, वह थक कर गए।']
+ > Processing time: 1.620328426361084
+ > Real-time factor: 0.3691544242980441
+ > Text splitted to sentences.
+['पाचास किलोमीटर की यात्रा पर जाने के बाद, वह थक कर गए।']
+ > Processing time: 1.7632465362548828
+ > Real-time factor: 0.4017150161640371
+ > Text splitted to sentences.
+['उन्होंने पाचास दिनों में एक नया कार्यक्रम तैयार किया।']
+ > Processing time: 1.6029911041259766
+ > Real-time factor: 0.40721144983845375
+ > Text splitted to sentences.
+['उन्होंने पाचास दिनों में एक नया कार्यक्रम तैयार किया।']
+ > Processing time: 1.468785047531128
+ > Real-time factor: 0.3731187822357301
+ > Text splitted to sentences.
+['उन्होंने पाचास दिनों में एक नया कार्यक्रम तैयार किया।']
+ > Processing time: 1.5324487686157227
+ > Real-time factor: 0.38929142105963926
+ > Text splitted to sentences.
+['उन्होंने पाचास दिनों में एक नया कार्यक्रम तैयार किया।']
+ > Processing time: 1.4907262325286865
+ > Real-time factor: 0.3786925510052712
+ > Text splitted to sentences.
+['उन्होंने पाचास दिनों में एक नया कार्यक्रम तैयार किया।']
+ > Processing time: 1.5405974388122559
+ > Real-time factor: 0.3913614461498876
+ > Text splitted to sentences.
+['साल 2050 में, यह विश्व तकनीक के क्षेत्र में प्रमुख उधारणा बनेगा।']
+साल 2050 में, यह विश्व तकनीक के क्षेत्र में प्रमुख उधारणा बनेगा।
+ [!] Character '0' not found in the vocabulary. Discarding it.
+साल 2050 में, यह विश्व तकनीक के क्षेत्र में प्रमुख उधारणा बनेगा।
+ [!] Character '5' not found in the vocabulary. Discarding it.
+ > Processing time: 1.9192967414855957
+ > Real-time factor: 0.4132215000562157
+ > Text splitted to sentences.
+['साल 2050 में, यह विश्व तकनीक के क्षेत्र में प्रमुख उधारणा बनेगा।']
+ > Processing time: 1.889453411102295
+ > Real-time factor: 0.4067962790462975
+ > Text splitted to sentences.
+['साल 2050 में, यह विश्व तकनीक के क्षेत्र में प्रमुख उधारणा बनेगा।']
+ > Processing time: 1.8053247928619385
+ > Real-time factor: 0.38868352291249164
+ > Text splitted to sentences.
+['साल 2050 में, यह विश्व तकनीक के क्षेत्र में प्रमुख उधारणा बनेगा।']
+ > Processing time: 1.8401057720184326
+ > Real-time factor: 0.3961718117579914
+ > Text splitted to sentences.
+['साल 2050 में, यह विश्व तकनीक के क्षेत्र में प्रमुख उधारणा बनेगा।']
+ > Processing time: 1.7766907215118408
+ > Real-time factor: 0.3825186534265749
+ > Text splitted to sentences.
+['जब उन्होंने पचास गुणा स्कोर किया, तो वे प्रतियोगिता में विजयी बने।']
+ > Processing time: 2.179868459701538
+ > Real-time factor: 0.418111513016866
+ > Text splitted to sentences.
+['जब उन्होंने पचास गुणा स्कोर किया, तो वे प्रतियोगिता में विजयी बने।']
+ > Processing time: 2.131181240081787
+ > Real-time factor: 0.40877301969209645
+ > Text splitted to sentences.
+['जब उन्होंने पचास गुणा स्कोर किया, तो वे प्रतियोगिता में विजयी बने।']
+ > Processing time: 2.231684923171997
+ > Real-time factor: 0.42805021360423223
+ > Text splitted to sentences.
+['जब उन्होंने पचास गुणा स्कोर किया, तो वे प्रतियोगिता में विजयी बने।']
+ > Processing time: 2.2270936965942383
+ > Real-time factor: 0.42716958950855044
+ > Text splitted to sentences.
+['जब उन्होंने पचास गुणा स्कोर किया, तो वे प्रतियोगिता में विजयी बने।']
+ > Processing time: 2.125295639038086
+ > Real-time factor: 0.4076441270075661
+ > Text splitted to sentences.
+['व्यक्तिगत विकास से समृद्धि होती है, यह आवश्यक है।']
+ > Processing time: 1.758695125579834
+ > Real-time factor: 0.4060482023688572
+ > Text splitted to sentences.
+['व्यक्तिगत विकास से समृद्धि होती है, यह आवश्यक है।']
+ > Processing time: 1.8449702262878418
+ > Real-time factor: 0.42596743057512676
+ > Text splitted to sentences.
+['व्यक्तिगत विकास से समृद्धि होती है, यह आवश्यक है।']
+ > Processing time: 1.7541768550872803
+ > Real-time factor: 0.4050050223516767
+ > Text splitted to sentences.
+['व्यक्तिगत विकास से समृद्धि होती है, यह आवश्यक है।']
+ > Processing time: 1.867034912109375
+ > Real-time factor: 0.4310617336657283
+ > Text splitted to sentences.
+['व्यक्तिगत विकास से समृद्धि होती है, यह आवश्यक है।']
+ > Processing time: 1.6571509838104248
+ > Real-time factor: 0.3826036521299617
+ > Text splitted to sentences.
+['सफलता उसे मिलती है जो हारने के बाद भी नहीं हारता।']
+ > Processing time: 1.57588791847229
+ > Real-time factor: 0.42409110284019225
+ > Text splitted to sentences.
+['सफलता उसे मिलती है जो हारने के बाद भी नहीं हारता।']
+ > Processing time: 1.57466459274292
+ > Real-time factor: 0.42376189062172165
+ > Text splitted to sentences.
+['सफलता उसे मिलती है जो हारने के बाद भी नहीं हारता।']
+ > Processing time: 1.6492009162902832
+ > Real-time factor: 0.4438205453549202
+ > Text splitted to sentences.
+['सफलता उसे मिलती है जो हारने के बाद भी नहीं हारता।']
+ > Processing time: 1.6398475170135498
+ > Real-time factor: 0.4413034288975392
+ > Text splitted to sentences.
+['सफलता उसे मिलती है जो हारने के बाद भी नहीं हारता।']
+ > Processing time: 1.6750378608703613
+ > Real-time factor: 0.45077358953563107
+ > Text splitted to sentences.
+['आपकी सोच आपके जीवन को बना सकती है या तोड़ सकती है।']
+ > Processing time: 1.8323559761047363
+ > Real-time factor: 0.4445019502850449
+ > Text splitted to sentences.
+['आपकी सोच आपके जीवन को बना सकती है या तोड़ सकती है।']
+ > Processing time: 1.7608976364135742
+ > Real-time factor: 0.4271672337937788
+ > Text splitted to sentences.
+['आपकी सोच आपके जीवन को बना सकती है या तोड़ सकती है।']
+ > Processing time: 1.7345879077911377
+ > Real-time factor: 0.42078489005890896
+ > Text splitted to sentences.
+['आपकी सोच आपके जीवन को बना सकती है या तोड़ सकती है।']
+ > Processing time: 1.8263704776763916
+ > Real-time factor: 0.4430499585544407
+ > Text splitted to sentences.
+['आपकी सोच आपके जीवन को बना सकती है या तोड़ सकती है।']
+ > Processing time: 1.6612343788146973
+ > Real-time factor: 0.40299042920331013
+ > Text splitted to sentences.
+['प्रेरणा वो चीज़ है जो हमें अपने लक्ष्य की ओर बढ़ाती है।']
+ > Processing time: 1.778700590133667
+ > Real-time factor: 0.41066707166660404
+ > Text splitted to sentences.
+['प्रेरणा वो चीज़ है जो हमें अपने लक्ष्य की ओर बढ़ाती है।']
+ > Processing time: 2.3275084495544434
+ > Real-time factor: 0.5373760398797482
+ > Text splitted to sentences.
+['प्रेरणा वो चीज़ है जो हमें अपने लक्ष्य की ओर बढ़ाती है।']
+ > Processing time: 2.7704837322235107
+ > Real-time factor: 0.6396503423472149
+ > Text splitted to sentences.
+['प्रेरणा वो चीज़ है जो हमें अपने लक्ष्य की ओर बढ़ाती है।']
+ > Processing time: 3.193997859954834
+ > Real-time factor: 0.7374314459290091
+ > Text splitted to sentences.
+['प्रेरणा वो चीज़ है जो हमें अपने लक्ष्य की ओर बढ़ाती है।']
+ > Processing time: 1.7684199810028076
+ > Real-time factor: 0.4082934807035507
+ > Text splitted to sentences.
+['आत्मविश्वास सफलता की कुंजी है, कभी हार नहीं मानना।']
+ > Processing time: 1.590719223022461
+ > Real-time factor: 0.37842394773482285
+ > Text splitted to sentences.
+['आत्मविश्वास सफलता की कुंजी है, कभी हार नहीं मानना।']
+ > Processing time: 1.611290693283081
+ > Real-time factor: 0.3833177950424212
+ > Text splitted to sentences.
+['आत्मविश्वास सफलता की कुंजी है, कभी हार नहीं मानना।']
+ > Processing time: 1.6026012897491455
+ > Real-time factor: 0.38125063049120334
+ > Text splitted to sentences.
+['आत्मविश्वास सफलता की कुंजी है, कभी हार नहीं मानना।']
+ > Processing time: 1.693988561630249
+ > Real-time factor: 0.4029911939403913
+ > Text splitted to sentences.
+['आत्मविश्वास सफलता की कुंजी है, कभी हार नहीं मानना।']
+ > Processing time: 1.8350348472595215
+ > Real-time factor: 0.4365453821646
+ > Text splitted to sentences.
+['सफलता उनकी मिलती है जो कभी हार नहीं मानते, उनकी मेहनत कभी नहीं टूटती।']
+ > Processing time: 3.0160939693450928
+ > Real-time factor: 0.5837037637275251
+ > Text splitted to sentences.
+['सफलता उनकी मिलती है जो कभी हार नहीं मानते, उनकी मेहनत कभी नहीं टूटती।']
+ > Processing time: 2.166715145111084
+ > Real-time factor: 0.4193237339357131
+ > Text splitted to sentences.
+['सफलता उनकी मिलती है जो कभी हार नहीं मानते, उनकी मेहनत कभी नहीं टूटती।']
+ > Processing time: 2.151622772216797
+ > Real-time factor: 0.41640291152384123
+ > Text splitted to sentences.
+['सफलता उनकी मिलती है जो कभी हार नहीं मानते, उनकी मेहनत कभी नहीं टूटती।']
+ > Processing time: 2.1056180000305176
+ > Real-time factor: 0.4074996217233615
+ > Text splitted to sentences.
+['सफलता उनकी मिलती है जो कभी हार नहीं मानते, उनकी मेहनत कभी नहीं टूटती।']
+ > Processing time: 2.0967605113983154
+ > Real-time factor: 0.4057854345977817
+ > Text splitted to sentences.
+['संवाद और सहयोग समस्याओं का समाधान आसानी से कर सकते हैं।']
+ > Processing time: 2.0269672870635986
+ > Real-time factor: 0.4331546429655019
+ > Text splitted to sentences.
+['संवाद और सहयोग समस्याओं का समाधान आसानी से कर सकते हैं।']
+ > Processing time: 1.9356796741485596
+ > Real-time factor: 0.4136468523702874
+ > Text splitted to sentences.
+['संवाद और सहयोग समस्याओं का समाधान आसानी से कर सकते हैं।']
+ > Processing time: 2.639951229095459
+ > Real-time factor: 0.5641468115362349
+ > Text splitted to sentences.
+['संवाद और सहयोग समस्याओं का समाधान आसानी से कर सकते हैं।']
+ > Processing time: 1.9163103103637695
+ > Real-time factor: 0.4095076983206807
+ > Text splitted to sentences.
+['संवाद और सहयोग समस्याओं का समाधान आसानी से कर सकते हैं।']
+ > Processing time: 3.7827398777008057
+ > Real-time factor: 0.808356085277783
+ > Text splitted to sentences.
+['जीवन को आपके अपने तरीके से जिएं, हर पल का आनंद उठाएं।']
+ > Processing time: 1.8962597846984863
+ > Real-time factor: 0.4155323605958979
+ > Text splitted to sentences.
+['जीवन को आपके अपने तरीके से जिएं, हर पल का आनंद उठाएं।']
+ > Processing time: 1.944960117340088
+ > Real-time factor: 0.4262041917171742
+ > Text splitted to sentences.
+['जीवन को आपके अपने तरीके से जिएं, हर पल का आनंद उठाएं।']
+ > Processing time: 1.9158432483673096
+ > Real-time factor: 0.419823736151407
+ > Text splitted to sentences.
+['जीवन को आपके अपने तरीके से जिएं, हर पल का आनंद उठाएं।']
+ > Processing time: 3.319737434387207
+ > Real-time factor: 0.7274627368047177
+ > Text splitted to sentences.
+['जीवन को आपके अपने तरीके से जिएं, हर पल का आनंद उठाएं।']
+ > Processing time: 1.7952549457550049
+ > Real-time factor: 0.3933989063632718
+ > Text splitted to sentences.
+['सफलता की ऊँचाइयों को छूने के लिए सपनों का पीछा करो और कभी हार नहीं मानना।']
+ > Processing time: 2.3408687114715576
+ > Real-time factor: 0.41566933294636516
+ > Text splitted to sentences.
+['सफलता की ऊँचाइयों को छूने के लिए सपनों का पीछा करो और कभी हार नहीं मानना।']
+ > Processing time: 2.269854784011841
+ > Real-time factor: 0.40305935114241953
+ > Text splitted to sentences.
+['सफलता की ऊँचाइयों को छूने के लिए सपनों का पीछा करो और कभी हार नहीं मानना।']
+ > Processing time: 2.2875466346740723
+ > Real-time factor: 0.40620090270715187
+ > Text splitted to sentences.
+['सफलता की ऊँचाइयों को छूने के लिए सपनों का पीछा करो और कभी हार नहीं मानना।']
+ > Processing time: 2.2491400241851807
+ > Real-time factor: 0.39938101994977476
+ > Text splitted to sentences.
+['सफलता की ऊँचाइयों को छूने के लिए सपनों का पीछा करो और कभी हार नहीं मानना।']
+ > Processing time: 3.804917812347412
+ > Real-time factor: 0.6756413297437542
+ > Text splitted to sentences.
+['आत्मविश्वास सफलता का महत्वपूर्ण हिस्सा है, इसे कभी हार नहीं मानना चाहिए।']
+ > Processing time: 2.2133193016052246
+ > Real-time factor: 0.39711374333090743
+ > Text splitted to sentences.
+['आत्मविश्वास सफलता का महत्वपूर्ण हिस्सा है, इसे कभी हार नहीं मानना चाहिए।']
+ > Processing time: 2.2509031295776367
+ > Real-time factor: 0.4038570336478558
+ > Text splitted to sentences.
+['आत्मविश्वास सफलता का महत्वपूर्ण हिस्सा है, इसे कभी हार नहीं मानना चाहिए।']
+ > Processing time: 2.173722982406616
+ > Real-time factor: 0.3900093718433951
+ > Text splitted to sentences.
+['आत्मविश्वास सफलता का महत्वपूर्ण हिस्सा है, इसे कभी हार नहीं मानना चाहिए।']
+ > Processing time: 2.1754088401794434
+ > Real-time factor: 0.39031184844060607
+ > Text splitted to sentences.
+['आत्मविश्वास सफलता का महत्वपूर्ण हिस्सा है, इसे कभी हार नहीं मानना चाहिए।']
+ > Processing time: 2.1810357570648193
+ > Real-time factor: 0.39132142985352875
+(venv) bishansingh@mr-darklord:~/Desktop/TTS_ai4bharat$ 
