@@ -91,7 +91,6 @@ tts = TTS(
         vocoder_path = "hi/hifigan/best_model.pth",
         vocoder_config_path = "hi/hifigan/config.json",
         progress_bar = False,
-        # cs_api_model = "XTTS",
         gpu = False)
 
 for index,value in enumerate(text_arr):
