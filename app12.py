@@ -16,17 +16,13 @@ text_arr = [
 ]
 
 
-
-
-
-
 tts = TTS(
         model_name = None,
         model_path = "hi/fastpitch/best_model.pth",
         config_path = "hi/fastpitch/config.json",
         vocoder_path = "hi/hifigan/best_model.pth",
         vocoder_config_path = "hi/hifigan/config.json",
-        gpu = False)
+        gpu = True)
 
 for index,value in enumerate(text_arr):
 
