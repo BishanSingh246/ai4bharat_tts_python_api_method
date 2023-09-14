@@ -40,8 +40,6 @@ This repository will help you to run TTS AI4Bharat model locally through <a href
 
 ```pip install TTS```
 
-```pip install subprocess```
-
 
 ## Instruction
 
